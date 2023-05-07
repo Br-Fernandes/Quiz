@@ -10,183 +10,198 @@
 <body>
     <h1 id="top">Quiz</h1>  
 
-    <div class="questionArea">
-        <div class="question">Em qual elemento HTML nós colocamos o javascript?'</div>
-        <div class="options">
-            <div class="option">
-                <input type="radio" name="q1" value="0" id="q1a">
-                <label for="q1a">tag js</label><br>
-            </div>
-            <div class="option">
-                <input type="radio" name="q1" value="1" id="q1b">
-                <label for="q1b">tag script</label><br>
-            </div>
-            <div class="option">
-                <input type="radio" name="q1" value="0" id="q1c">
-                <label for="q1c">tag javascript</label><br>
-            </div>
-        </div>
-    </div>
-
-    <div class="questionArea">
-        <div class="question">Onde é o local certo de colocar o javascript?</div>
-        <div class="options">
-            <div class="option">
-                <input type="radio" name="q2" value="0" id="q2a">
-                <label for="q2a">Na tag body</label><br>
-            </div>
-            <div class="option">
-                <input type="radio" name="q2" value="0" id="q2b">
-                <label for="q2b">Na tag head</label><br>
-            </div>
-            <div class="option">
-                <input type="radio" name="q2" value="1" id="q2c">
-                <label for="q2c">Tanto na tag body quanto a head estão corretas</label><br>
+    <div class="main-content">
+        <div class="questionArea">
+            <div class="question">Em qual elemento HTML nós colocamos o javascript?'</div>
+            <div class="options">
+                <div class="option">
+                    <input type="radio" name="q1" value="0" id="q1a">
+                    <label for="q1a">tag js</label><br>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q1" value="1" id="q1b">
+                    <label for="q1b">tag script</label><br>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q1" value="0" id="q1c">
+                    <label for="q1c">tag javascript</label><br>
+                </div>
             </div>
         </div>
-    </div>
-
-    <div class="questionArea">
-        <div class="question">Qual a sintaxe correta para adicionar um arquivo javascript externo na tag script?</div>
-        <div class="options">
-            <div class="option">
-                <input type="radio" name="q3" value="0" id="q3a">
-                <label for="q3a">name="xxx.js"</label><br>
-            </div>
-            <div class="option">
-                <input type="radio" name="q3" value="1" id="q3b">
-                <label for="q3b">src="xxx.js"</label><br>
-            </div>
-            <div class="option">
-                <input type="radio" name="q3" value="0" id="q3c">
-                <label for="q3c">href="xxx.js"</label><br>
-            </div>
-        </div>
-    </div>
-
-    <div class="questionArea">
-        <div class="question">Um arquivo javascript externo precisa ter a tag script</div>
-        <div class="options">
-            <div class="option">
-                <input type="radio" name="q4" value="1" id="q4a">
-                <label for="q4a">Verdeiro</label><br>
-            </div>
-            <div class="option">
-                <input type="radio" name="q4" value="0" id="q4b">
-                <label for="q4b">Falso</label><br>
-            </div>          
-        </div>
-    </div>
-
-    <div class="questionArea">
-        <div class="question">Como escrever um "Olá Mundo" em um alertbox?</div>
-        <div class="options">
-            <div class="option">
-                <input type="radio" name="q5" value="0" id="q5a">
-                <label for="q5a">alertBox("Olá Mundo")</label><br>
-            </div>
-            <div class="option">
-                <input type="radio" name="q5" value="0" id="q5b">
-                <label for="q5b">msgBox("Olá Mundo")</label><br>
-            </div>
-            <div class="option">
-                <input type="radio" name="q5" value="1" id="q5c">
-                <label for="q5c">alert("Olá Mundo")</label><br>
-            </div>
-        </div>
-    </div>
-
-    <div class="questionArea">
-        <div class="question">Como você cria uma função no Javascript?</div>
-        <div class="options">
-            <div class="option">
-                <input type="radio" name="q6" value="0" id="q6a">
-                <label for="q6a">function:minhaFuncao()</label><br>
-            </div>
-            <div class="option">
-                <input type="radio" name="q6" value="0" id="q6b">
-                <label for="q6b">function = minhaFuncao()</label><br>
-            </div>
-            <div class="option">
-                <input type="radio" name="q6" value="1" id="q6c">
-                <label for="q6c">function minhaFuncao()</label><br>
-            </div>
-        </div>
-    </div>
-
-    <div class="questionArea">
-        <div class="question">Como chamar uma função chamada "minhaFuncao"?</div>
-        <div class="options">
-            <div class="option">
-                <input type="radio" name="q7" value="0" id="q7a">
-                <label for="q7a">call minhaFuncao</label><br>
-            </div>
-            <div class="option">
-                <input type="radio" name="q7" value="0" id="q7b">
-                <label for="q7b">call function minhaFuncao</label><br>
-            </div>
-            <div class="option">
-                <input type="radio" name="q7" value="1" id="q7c">
-                <label for="q7c">minhaFuncao()</label><br>
-            </div>
-        </div>
-    </div>
-
-    <div class="questionArea">
-        <div class="question">Como escrever uma condicional IF no Javascript?</div>
-        <div class="options">
-            <div class="option">
-                <input type="radio" name="q8" value="0" id="q8a">
-                <label for="q8a">if i == 5 then</label><br>
-            </div>
-            <div class="option">
-                <input type="radio" name="q8" value="1" id="q8b">
-                <label for="q8b">if (i == 5)</label><br>
-            </div>
-            <div class="option">
-                <input type="radio" name="q8" value="0" id="q8c">
-                <label for="q8c">if i = 5 then</label><br>
-            </div>
-        </div>
-    </div>
-
-    <div class="questionArea">
-        <div class="question">Como fazer um if que executa um código caso "i" for diferente de 5</div>
-        <div class="options">
-            <div class="option">
-                <input type="radio" name="q9" value="0" id="q9a">
-                <label for="q9a">if (i =! 5) then</label><br>
-            </div>
-            <div class="option">
-                <input type="radio" name="q9" value="1" id="q9b">
-                <label for="q9b">if (i != 5)</label><br>
-            </div>
-            <div class="option">
-                <input type="radio" name="q9" value="0" id="q9c">
-                <label for="q9c">if (i <> 5)</label><br>
-            </div>
-        </div>
-    </div>
-
-    <div class="questionArea">
-        <div class="question">Como o loop while começa?</div>
-        <div class="options">
-            <div class="option">
-                <input type="radio" name="q10" value="1" id="q10a">
-                <label for="q10a">while (i <= 10)</label><br>
-            </div>
-            <div class="option">
-                <input type="radio" name="q10" value="0" id="q10b">
-                <label for="q10b">while (i <= 10; i++)</label><br>
-            </div>
-            <div class="option">
-                <input type="radio" name="q10" value="0" id="q10c">
-                <label for="q10c">while i = 1 to 10</label><br>
-            </div>
-        </div>
-    </div>
-
     
-    <footer><a href="#top"></a></footer>
+        <div class="questionArea">
+            <div class="question">Onde é o local certo de colocar o javascript?</div>
+            <div class="options">
+                <div class="option">
+                    <input type="radio" name="q2" value="0" id="q2a">
+                    <label for="q2a">Na tag body</label><br>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q2" value="0" id="q2b">
+                    <label for="q2b">Na tag head</label><br>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q2" value="1" id="q2c">
+                    <label for="q2c">Tanto na tag body quanto a head estão corretas</label><br>
+                </div>
+            </div>
+        </div>
+    
+        <div class="questionArea">
+            <div class="question">Qual a sintaxe correta para adicionar um arquivo javascript externo na tag script?</div>
+            <div class="options">
+                <div class="option">
+                    <input type="radio" name="q3" value="0" id="q3a">
+                    <label for="q3a">name="xxx.js"</label><br>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q3" value="1" id="q3b">
+                    <label for="q3b">src="xxx.js"</label><br>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q3" value="0" id="q3c">
+                    <label for="q3c">href="xxx.js"</label><br>
+                </div>
+            </div>
+        </div>
+    
+        <div class="questionArea">
+            <div class="question">Um arquivo javascript externo precisa ter a tag script</div>
+            <div class="options">
+                <div class="option">
+                    <input type="radio" name="q4" value="1" id="q4a">
+                    <label for="q4a">Verdeiro</label><br>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q4" value="0" id="q4b">
+                    <label for="q4b">Falso</label><br>
+                </div>          
+            </div>
+        </div>
+    
+        <div class="questionArea">
+            <div class="question">Como escrever um "Olá Mundo" em um alertbox?</div>
+            <div class="options">
+                <div class="option">
+                    <input type="radio" name="q5" value="0" id="q5a">
+                    <label for="q5a">alertBox("Olá Mundo")</label><br>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q5" value="0" id="q5b">
+                    <label for="q5b">msgBox("Olá Mundo")</label><br>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q5" value="1" id="q5c">
+                    <label for="q5c">alert("Olá Mundo")</label><br>
+                </div>
+            </div>
+        </div>
+    
+        <div class="questionArea">
+            <div class="question">Como você cria uma função no Javascript?</div>
+            <div class="options">
+                <div class="option">
+                    <input type="radio" name="q6" value="0" id="q6a">
+                    <label for="q6a">function:minhaFuncao()</label><br>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q6" value="0" id="q6b">
+                    <label for="q6b">function = minhaFuncao()</label><br>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q6" value="1" id="q6c">
+                    <label for="q6c">function minhaFuncao()</label><br>
+                </div>
+            </div>
+        </div>
+    
+        <div class="questionArea">
+            <div class="question">Como chamar uma função chamada "minhaFuncao"?</div>
+            <div class="options">
+                <div class="option">
+                    <input type="radio" name="q7" value="0" id="q7a">
+                    <label for="q7a">call minhaFuncao</label><br>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q7" value="0" id="q7b">
+                    <label for="q7b">call function minhaFuncao</label><br>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q7" value="1" id="q7c">
+                    <label for="q7c">minhaFuncao()</label><br>
+                </div>
+            </div>
+        </div>
+    
+        <div class="questionArea">
+            <div class="question">Como escrever uma condicional IF no Javascript?</div>
+            <div class="options">
+                <div class="option">
+                    <input type="radio" name="q8" value="0" id="q8a">
+                    <label for="q8a">if i == 5 then</label><br>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q8" value="1" id="q8b">
+                    <label for="q8b">if (i == 5)</label><br>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q8" value="0" id="q8c">
+                    <label for="q8c">if i = 5 then</label><br>
+                </div>
+            </div>
+        </div>
+    
+        <div class="questionArea">
+            <div class="question">Como fazer um if que executa um código caso "i" for diferente de 5</div>
+            <div class="options">
+                <div class="option">
+                    <input type="radio" name="q9" value="0" id="q9a">
+                    <label for="q9a">if (i =! 5) then</label><br>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q9" value="1" id="q9b">
+                    <label for="q9b">if (i != 5)</label><br>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q9" value="0" id="q9c">
+                    <label for="q9c">if (i <> 5)</label><br>
+                </div>
+            </div>
+        </div>
+    
+        <div class="questionArea">
+            <div class="question">Como o loop while começa?</div>
+            <div class="options">
+                <div class="option">
+                    <input type="radio" name="q10" value="1" id="q10a">
+                    <label for="q10a">while (i <= 10)</label><br>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q10" value="0" id="q10b">
+                    <label for="q10b">while (i <= 10; i++)</label><br>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q10" value="0" id="q10c">
+                    <label for="q10c">while i = 1 to 10</label><br>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="btn-score">
+            <button>Ver Resultado</button>
+        </div>
+        
+        <footer><a href="#top"></a></footer>
+    </div>
+
+    <div class="score-box">
+        <div class="phrase"></div>
+        <div class="percentage"></div>
+        <div class="number-rights"></div>
+        <div class="do-again">Fazer Novamente</div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
